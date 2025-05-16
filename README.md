@@ -1,8 +1,5 @@
 # Marketing-Analytics-Business-Case
-[Day 3.pdf](https://github.com/user-attachments/files/20256585/Day.3.pdf)
-[Day2.pdf](https://github.com/user-attachments/files/20256583/Day2.pdf)
-[Day-1.pdf](https://github.com/user-attachments/files/20256581/Day-1.pdf)
-[Start.pptx](https://github.com/user-attachments/files/20256578/Start.pptx)
+
 
 📊 Customer Review & Engagement Data Analysis with Sentiment Scoring
 This project is focused on end-to-end data cleaning, transformation, and sentiment analysis using SQL and Python. The dataset simulates a marketing analytics environment where customer feedback, product interactions, and content engagement data are collected and prepared for deeper insights and dashboarding.
