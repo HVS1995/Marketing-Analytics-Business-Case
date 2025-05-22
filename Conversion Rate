@@ -1,0 +1,12 @@
+Conversion Rate = 
+VAR TotalVisitors = CALCULATE( COUNT (fact_customer_journey[JourneyID]) , fact_customer_journey[Action] = "View" )
+VAR TotalPurchases = CALCULATE(
+    COUNT(fact_customer_journey[JourneyID]),
+    fact_customer_journey[Action] = "Purchase"
+)
+RETURN
+IF(
+    TotalVisitors = 0, 
+    0, 
+    DIVIDE(TotalPurchases, TotalVisitors)
+)
